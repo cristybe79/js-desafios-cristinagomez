@@ -1,4 +1,22 @@
+//while ***********************
+let stock1 = 10
+let queLLeva = prompt('que va a llevar? remera/camisa/pantalon/zapatillas');
+let num1 = parseInt(prompt("cuantas "+queLLeva+" compra?"))
 
+while (true) {
+        stock2=stock1 - num1
+    console.log('quedan ' + stock2 + ' ' + queLLeva)
+    break
+}
+// for********************************
+let i = 10
+let queLLeva = prompt('que va a llevar? remera/camisa/pantalon/zapatillas');
+let num1 = parseInt(prompt("cuantas "+queLLeva+" compra?"))
+for (i; i >= num1; i = i - num1){
+    num2 =i-num1
+    console.log('quedan ' + num2 +' ' +queLLeva)
+
+}
 //practica switch*********************** */
 let cantPers = parseInt(prompt('cuantas personas son'))
 const c3p = 3;
@@ -55,23 +73,4 @@ switch (compra) {
     default:
         console.log(" favor consulte nuestro catálogo nuevamente");
     break;
-}
-// for********************************
-let i = 10
-let queLLeva = prompt('que va a llevar? remera/camisa/pantalon/zapatillas');
-let num1 = parseInt(prompt("cuantas "+queLLeva+" compra?"))
-for (i; i >= num1; i = i - num1){
-    num2 =i-num1
-    console.log('quedan ' + num2 +' ' +queLLeva)
-
-}
-//while ***********************
-let stock1 = 10
-let queLLeva = prompt('que va a llevar? remera/camisa/pantalon/zapatillas');
-let num1 = parseInt(prompt("cuantas "+queLLeva+" compra?"))
-
-while (true) {
-        stock2=stock1 - num1
-    console.log('quedan ' + stock2 + ' ' + queLLeva)
-    break
 }
