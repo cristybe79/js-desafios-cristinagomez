@@ -24,3 +24,22 @@ class catalogoProducto{
 // const art1 = new catalogoProducto(tipo, talle, color, stock, costo)
 // art1.precioVenta()
     
+// objeto cargador venta
+// let queCompra = prompt('que va a llevar? art1/art2/art3/art4')
+// let num = parseInt(prompt("cuantas " + queCompra + " compra?"))
+
+// class carrito{
+//     constructor(pArt, pCant, pVentaArt) {
+//     this.queCompra = pArt ;
+//     this.num = pCant;
+//     this.art1.precio=pVentaArt;
+//     }
+//     precioTotal() {
+//         this.precioTotalArt=this.num * this.art1.precio
+//         return alert(`el precio total de contado de ${this.queCompra} es pesos ${this.precioTotalArt}, financiado )
+//     }
+// }
+
+
+
+
