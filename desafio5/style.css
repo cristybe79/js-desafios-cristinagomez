@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    background-color: aliceblue;
+}
+
+nav {
+  text-align: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.barraNavegacion {
+  list-style-type: none;
+  overflow: hidden;
+  background: rgb(81,109,131);
+background: linear-gradient(176deg, rgba(81,109,131,1) 32%, rgba(184,186,186,1) 100%);
+}
+.barra {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
