@@ -12,16 +12,62 @@ nav {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 .barraNavegacion {
+  
   list-style-type: none;
   overflow: hidden;
   background: rgb(81,109,131);
-background: linear-gradient(176deg, rgba(81,109,131,1) 32%, rgba(184,186,186,1) 100%);
+  background: linear-gradient(176deg, rgba(81,109,131,1) 32%, rgba(184,186,186,1) 100%);
 }
 .barra {
   float: left;
   display: block;
   color: white;
   text-align: center;
+  justify-content: end;
   padding: 14px 16px;
   text-decoration: none;
+}
+h2{
+    height: 20%;
+    padding-bottom: 15px;
+}
+h3{
+    height: 20%;
+    padding-bottom: 10px;
+    margin-left: 20px;
+}
+
+.catGrid{
+  width: 80%;
+  margin: 15px;
+  padding: 10px;
+  display: grid;
+  grid-template-columns:repeat(4,1fr) ;
+  grid-row: auto(100px);
+  grid-gap: 25px;
+
+}
+.catHij{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding-top: 7px;
+  background-color: rgb(166, 174, 180);
+  border-radius: 10px;
+  box-shadow: 10px 10px 10px black;
+}
+.itemCat{
+  width: 70%;
+  height: 80%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+.catHij:hover{
+transform: scale(1.02)
+}
+footer{
+  max-height: 30%;
+  background: rgb(81,109,131);
+  background: linear-gradient(176deg, rgba(81,109,131,1) 32%, rgba(184,186,186,1) 100%);
 }
