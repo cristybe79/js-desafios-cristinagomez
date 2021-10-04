@@ -18,6 +18,7 @@ const catalogo = [
 // mustra el catalogo
 console.log(catalogo)
 // pregunta el tipo de producto y lo filtra
+
 let pdctoTipo = prompt (`Elija el tipo que producto en nuestro catalogo`)
 let filtroPdcto = catalogo.filter((producto) => producto.tipo === pdctoTipo)
 console.log(filtroPdcto)
