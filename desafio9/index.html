@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+
+    <title>Inicio</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul class="barraNavegacion">
+                <li><a class="barra" href="index.html">Inicio</a></li>
+                <li><a class="barra" href="catalogo.html">Catalogo</a></li>
+                <li><a class="barra" href="contacto.html">contacto</a></li>
+        
+            </ul>
+            <h1>Desafio 9</h1>
+        </nav>
+        <button id="modal-abrir">carrito</button>
+
+    </header>
+    <main>
+    <!-- usuario -->
+    <div id="registrar" class="registrar"> 
+        <input id="nombre-usuario" type="text">
+        <small id="error-nombre">Escriba su Nombre</small>
+        <input id="nickName" type="text">
+
+        <input id="mail" type="text" placeholder="juan@mail.com">
+        <small id="mail-error">deje su mail</small>
+        <button type="submit">Suscribirse</button>
+    </div>
+    <!-- listado para elegir -->
+    <div id="elegir">
+
+    </div>
+    <!-- catalogo -->
+    <button id="abrirCat">mostrar catalogo</button>
+    <div id="catalogoProductos" class="row mostrarCatalogo">
+        <button id="cerrarCat">cerrar</button>
+    </div>
+
+    <div class="modal-contenedor">
+        <div class="modal-carrito">
+            <h2>Productos Seleccionados</h2>
+            <button id="modal-cerrar">Cerrar</button>
+        </div>
+    </div>
+
+</main>
+
+    <footer>
+        facebook - Instagram
+        <p>Consultas</p>
+    </footer>
+    <script src="desafio9.js"></script>
+</body>
+</html>
