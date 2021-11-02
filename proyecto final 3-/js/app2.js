@@ -4,6 +4,8 @@ const agregaCarrito = document.getElementById('agrega-carrito')
 const contadorCarrito = document.getElementById('contadorCarrito')
 const total = document.getElementById('total')
 
+
+
 localStorage.setItem('total1', JSON.stringify(total))
 
 const carrito = []
@@ -31,6 +33,9 @@ const mostrarCatalogo = (arrayCat) => {
         <h4>${catProd.pais} - </h4>
         <p>${catProd.dias} días</p>
         <p>${catProd.region}</p>
+        <p>Personas:${catProd.cantidad}</p>
+                <button onclick="agregarCarrito(${catProd.codArt})" class="boton-agregar-c"><i class="fas fa-plus-square"></i></button>                
+                <button onclick="eliminarProducto(${catProd.codArt})" class="boton-eliminar"><i class="fas fa-minus-square"></i></button>
         
         <p>Precio:€${catProd.precio}</p>
         <button onclick="agregarCarrito(${catProd.codArt})" class="boton-agregar">viajar <i class="fas fa-plane-departure"></i></button>
@@ -58,7 +63,7 @@ const agregarCarrito = (itemAg) => {
             pais: producto.pais,
             dias: producto.dias,
             precio: producto.precio,
-            cantidad: 1
+            cantidad: producto.cantidad
             
         })
     }
@@ -85,6 +90,7 @@ const actualizaCarrito = () => {
                 <p>${prod.ciudad}</p>
                 <p>${prod.pais}</p>
                 <p>Precio: €${prod.precio}</p>
+            
                 <p>Personas: ${prod.cantidad}</p>
                 <button onclick="agregarCarrito(${prod.codArt})" class="boton-agregar-c"><i class="fas fa-plus-square"></i></button>                
                 <button onclick="eliminarProducto(${prod.codArt})" class="boton-eliminar"><i class="fas fa-minus-square"></i></button>
