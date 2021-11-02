@@ -5,6 +5,7 @@ $('#registrar').append(`<form id="forReg">
 <input id="inpApe" type="text" placeholder="Apellido"></input>
 <input id="inpMai" type="text" placeholder="juan@mail.com"></input>
 <button id="btnForm" class="btn btn-primary">registrarse</button>
+
 </form>
 <h2 id="respuesta"></h2>
 `
@@ -54,4 +55,6 @@ $('#inpApe').on('input', () => {
         $('#inpApe').removeClass('invalido')
     }
 })
+
+
 
