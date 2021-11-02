@@ -50,7 +50,7 @@ const mostrarViajesEu = (arrayCat) => {
         <h3>${cv1.ciudad}</h3>
         <p>dias:${cv1.dias}</p>
         <p>€${cv1.precio}</p>
-        <a class="boton-ver" href="/proyecto final 3-/carrito.html">Ver</a>
+        <a class="boton-ver" href="./carrito.html">Ver</a>
         `        
         
         contenedorViajesEU.appendChild(div)
@@ -68,7 +68,7 @@ const mostrarViajesAN = (arrayCat) => {
         <h3>${cv1.ciudad}</h3>
         <p>dias:${cv1.dias}</p>
         <p>€${cv1.precio}</p>        
-        <a class="boton-ver" href="/proyecto final 3-/carrito.html">Ver</a>
+        <a class="boton-ver" href="./carrito.html">Ver</a>
         `        
         contenedorViajesAN.appendChild(div)
     })
@@ -84,7 +84,7 @@ const mostrarViajesCA = (arrayCat) => {
         <h3>${cv1.ciudad}</h3>
         <p>dias:${cv1.dias}</p>
         <p>€${cv1.precio}</p>        
-        <a class="boton-ver" href="/proyecto final 3-/carrito.html">Ver</a>
+        <a class="boton-ver" href="./carrito.html">Ver</a>
         `        
         contenedorViajesCA.appendChild(div)
     })
@@ -100,7 +100,7 @@ const mostrarViajesSA = (arrayCat) => {
         <h3>${cv1.ciudad}</h3>
         <p>dias:${cv1.dias}</p>
         <p>€${cv1.precio}</p>        
-        <a class="boton-ver" href="/proyecto final 3-/carrito.html">Ver</a>
+        <a class="boton-ver" href="./carrito.html">Ver</a>
         `        
         contenedorViajesSA.appendChild(div)
     })
