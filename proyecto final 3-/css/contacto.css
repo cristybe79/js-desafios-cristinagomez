@@ -4,14 +4,20 @@
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
     
 }
-body main{
-    background-color: rgb(109, 124, 138);
+body{
+    background-image: linear-gradient(
+    to bottom,
+    rgba(245, 246, 252, 0.493),
+    rgb(19, 18, 18)
+    ),
+    url("../img/ibiza.jpg");
+    height: 100vh;
 }
 
 header{
     display: flex;
     flex-direction:column;
-    justify-content:space-betwee    ;
+    justify-content:space-between;
 
 
 }
@@ -38,14 +44,38 @@ nav{
 }
 /*registracion usuaRIO*/
 #registrar{
+    background-color: rgb(81,109,131);
     width: 80vw;
-    margin:10px;
+    margin: 5vw 0vw 5vw 40vw;
     padding: 10px;
     display:flex;
     flex-direction:column;
+    width: 500px;
+    border-radius: 10px;
+
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 20px;
 }
 
+input{
+    margin: 20px;
+}
 
+.invalido{
+    border:red solid 2px;
+    color:red;
+    background-color: lightcoral;
+}
+
+.valido{
+    border: green solid 2px;
+    color:green;
+    background-color: lightgreen;
+}
 .invalido{
     border:red solid 2px;
     color:red;
@@ -59,4 +89,16 @@ nav{
 #respuesta{
 
     visibility:hidden,
+}
+
+footer {
+    padding: 8vh;
+    max-height: 5vh;
+    background: rgb(81, 109, 131);
+    background: linear-gradient(
+    176deg,
+    rgba(81, 109, 131, 1) 32%,
+    rgba(184, 186, 186, 1) 100%
+    );
+    position:relative;
 }

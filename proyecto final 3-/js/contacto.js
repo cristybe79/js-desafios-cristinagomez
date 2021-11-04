@@ -1,11 +1,12 @@
 // ususario====///
 
 $('#registrar').append(`<form id="forReg">
+<p>Dejanos tu Pregunta y te responderemos a la Brevedad</p>
 <input id="inpNom" type="text" placeholder="Nombre">
 <input id="inpApe" type="text" placeholder="Apellido"></input>
-<input id="inpMai" type="text" placeholder="juan@mail.com"></input>
+<input id="inpMai" type="text" placeholder="juan@mail.com" requerid></input>
+<textarea name="" id="" cols="30" rows="10"></textarea>
 <button id="btnForm" class="btn btn-primary">registrarse</button>
-
 </form>
 <h2 id="respuesta"></h2>
 `
@@ -23,6 +24,7 @@ $('#forReg').submit((e) => {
 
     if (nombre.length > 3 && apellido.length>3) {
         $('#respuesta').append('Usuario Registrado')
+        $('#respuesta').addClass('valido')
         $('#inpNom').val('')
         $('#inpApe').val('')
         $('#inpMai').val('')
