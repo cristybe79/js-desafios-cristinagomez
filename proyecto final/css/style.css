@@ -9,7 +9,7 @@ body{
     background-color: rgb(109, 124, 138);
 
 }
-
+/*Menu Navagacion*/
 nav{
     text-align: center;
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
@@ -32,6 +32,8 @@ nav{
     text-decoration: none;
 
 }
+
+/*Pequeño Grid Consulta Clima*/
 main{
     width: 99vw;
     background-color: rgb(54, 68, 93);
@@ -81,13 +83,26 @@ main{
 }
 .buscaViaje a{
     text-decoration: none;
+    color:rgba(184,186,186,1);
 
 }
-.bv1{padding-left: 10px;}
-.bv2{padding-left: 100px;}
-.bv3{padding-left: 200px;}
-.bv4{padding-left:300px;}
+.buscaViaje h2{
+    padding-left: 120px;
 
+}
+.buscaViaje h3{
+    color:rgba(81,109,131,1);
+    padding-left: 150px;
+    font-size: 1.5rem;
+
+}
+
+.espacio{
+    background-color: aliceblue;
+    height: 8vh;
+}
+
+/*Galeria*/
 .galeria{
     width: 90%;
     margin: auto;
