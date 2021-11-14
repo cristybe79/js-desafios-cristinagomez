@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+            crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/e939ecd126.js" crossorigin="anonymous"></script>
+    <!-- <script defer src="modales.js"></script> -->
+    <script defer src="./js/app.js"></script>
+
+    <title>Inicio</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+                <ul class="barraNavegacion">
+                    <li><a class="barra" href="./index.html">Inicio</a></li>
+                    <li><a class="barra" href="./catalogo.html">Catalogo</a></li>
+                    <li><a class="barra" href="./compra.html">Compra</a></li>
+                    <li><a class="barra" href="./contacto.html">Contacto</a></li>
+                    <li><a class="barra" href="./pago.html">Pago</a></li>
+                </ul>
+            <h1>Viajar <i class="fas fa-plane-departure"></i></h1>
+
+        </nav>
+
+
+    </header>
+    <main>
+
+        <section class="grid">
+                    <div class="consultaClima">
+                        <div class="input">
+                            <input type="text" placeholder="Ciudad de Destino" id="input_text">
+                            <button id="submit" class="btn btn-primary m-4">Consulta</button>
+                        </div>
+                        <div id="clima"></div>
+                    </div>
+                    <div class="buscaViaje">
+                        <h2>Busca Tu Destino</h2>
+                        <h3 class="bv1"><a href="./catalogo.html#contenedor-viajes-europa">Europa</a></h3>
+                        <h3 class="bv2"><a href="./catalogo.html#contenedor-viajes-an">America Del Norte</a></h3>
+                        <h3 class="bv3"><a href="./catalogo.html#contenedor-viajes-sa">Sur America</a></h3>
+                        <h3 class="bv4"><a href="./catalogo.html#contenedor-viajes-ca">Centro America</a></h3>
+                    </div>
+                    <div id="climaMdz" class="climaMdz">
+                    </div>
+
+                    
+
+        </section>
+        
+        
+
+<div class="galeria">
+    <div class="img-card"><img src="./img/barcelona.jpg" alt="Barcelona"></div>
+    <div class="img-card"><img src="./img/paris.jpg" alt="Paris"></div>
+    <div class="img-card"><img src="./img/ibiza.jpg" alt="Ibiza"></div>
+    <div class="img-card"><img src="./img/nuevayork.jpg" alt="Nueva York"></div>
+    <div class="img-card"><img src="./img/monaco.jpg" alt="Monaco"></div>
+    <div class="img-card"><img src="./img/florencia.jpg" alt="Florencia"></div>
+
+</div>
+
+<div class="modal">
+    <span class="cierreImg">x</span>
+
+    <img src="" alt="" id="modalImg">
+
+    <div class="caption-text"></div>
+
+    <div class="lists">
+        <img src="./img/barcelona.jpg" alt="Barcelona">
+        <img src="./img/paris.jpg" alt="Paris">
+        <img src="./img/ibiza.jpg" alt="Ibiza">
+        <img src="./img/nuevayork.jpg" alt="Nueva York">
+        <img src="./img/monaco.jpg" alt="Monaco">
+        <img src="./img/florencia.jpg" alt="Florencia">
+    </div>
+</div>
+
+
+
+
+
+            
+        <!-- catalogo -->
+
+
+
+
+    </main>
+
+
+<footer class="bg-dark text-center text-white foot1">
+    <!-- Grid container -->
+    <div class="container p-4 pb-0">
+        <!-- Section: Social media -->
+        <section class="mb-4">
+            <!-- Facebook -->
+            <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
+                    class="fab fa-facebook-f"></i></a>
+
+            <!-- Twitter -->
+            <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="fab fa-twitter"></i></a>
+
+
+            <!-- Instagram -->
+            <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
+                    class="fab fa-instagram"></i></a>
+
+
+        </section>
+    </footer>
+</body>
+
+</html>
